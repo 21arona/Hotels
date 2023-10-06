@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_accueil"
+        android:icon="@drawable/ballon"
+        android:title="Accueil" />
+
+    <item
+        android:id="@+id/menu_competition"
+        android:icon="@drawable/icon_stade"
+        android:title="Compétitions" />
+</menu>

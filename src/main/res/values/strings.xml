@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TpAllFootball</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="noms_competitions">
+        <item>Clubs Phares</item>
+        <item>Premier league</item>
+        <item>Liga</item>
+        <item>Ligue 1</item>
+        <item>Serie A</item>
+        <item>MLS</item>
+    </string-array>
+</resources>
+
+
+
+
+
+

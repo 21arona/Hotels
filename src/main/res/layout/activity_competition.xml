@@ -1,0 +1,213 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".CompetitionActivity">
+
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4CAF50"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="All Football"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Competitions"
+        android:textColor="@color/black"
+        android:background="#F2ECF6"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:shadowColor="#4CAF50"
+        android:shadowDy="30"
+        android:shadowRadius="10"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/pl" />
+
+                    <TextView
+                        android:id="@+id/tv_premier_league_competitions"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:textSize="55sp"
+                        android:textStyle="bold"
+                        android:gravity="right"
+                        android:shadowColor="#4CAF50"
+                        android:shadowDy="10"
+                        android:shadowRadius="10"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="@android:color/darker_gray" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="170sp"
+                        android:layout_height="200sp"
+                        android:src="@drawable/liga" />
+
+                    <TextView
+                        android:id="@+id/tv_liga_competitions"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:textSize="55sp"
+                        android:textStyle="bold"
+                        android:gravity="right"
+                        android:shadowColor="#4CAF50"
+                        android:shadowDy="10"
+                        android:shadowRadius="10"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="@android:color/darker_gray" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="170dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/ligue1" />
+
+                    <TextView
+                        android:id="@+id/tv_ligue1_competitions"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30sp"
+                        android:textSize="55sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="40dp"
+                        android:gravity="right"
+                        android:shadowColor="#4CAF50"
+                        android:shadowDy="10"
+                        android:shadowRadius="10"/>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="@android:color/darker_gray" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="170dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/seriea" />
+
+                    <TextView
+                        android:id="@+id/tv_seriea_competitions"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:textSize="55sp"
+                        android:textStyle="bold"
+                        android:gravity="right"
+                        android:layout_marginLeft="35dp"
+                        android:shadowColor="#4CAF50"
+                        android:shadowDy="10"
+                        android:shadowRadius="10"
+                        />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="@android:color/darker_gray" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="170dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/mls" />
+
+                    <TextView
+                        android:id="@+id/tv_mls_competitions"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:textSize="55sp"
+                        android:textStyle="bold"
+                        android:gravity="right"
+                        android:layout_marginLeft="100dp"
+                        android:shadowColor="#4CAF50"
+                        android:shadowDy="10"
+                        android:shadowRadius="10"
+                        />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:background="@android:color/white" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:menu="@menu/bouton_menu"
+            app:labelVisibilityMode="auto" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment_frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

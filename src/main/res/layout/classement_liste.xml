@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/tv_row_equipe"
+            android:layout_weight="1"
+            android:text="nom_equipe" />
+
+        <TextView
+            android:id="@+id/tv_matchs_joues"
+            android:layout_weight="1"
+            android:text="matchs_joues" />
+
+        <TextView
+            android:id="@+id/tv_points_equipes"
+            android:layout_weight="1"
+            android:text="points" />
+
+        <TextView
+            android:id="@+id/tv_victoires_equipes"
+            android:layout_weight="1"
+            android:text="victoires" />
+
+        <TextView
+            android:id="@+id/tv_defaites_equipes"
+            android:layout_weight="1"
+            android:text="defaites" />
+
+    </TableRow>
+
+</TableLayout>
